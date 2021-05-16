@@ -23,11 +23,25 @@ public class ShipSpec {
     }
 
 
+    //获取军舰的位置
     public void whenInstantedThenLocationisSet() {
         //Location location = new Location(new Point(21, 13), Direction.NONE);
 
        // Ship ship = new Ship(location);
         assertEquals(ship.getLocation(), location);
+    }
+
+    //前进和后退1.0
+    public void givenNorthWhenMoveForwardThenYDecrease(){
+        ship.moveForward();
+        assertEquals(ship.getLocation().getPoint().getY(),12);
+    }
+
+    public void givenEastWhenMoveForwardThenIncrease(){
+        ship.getLocation().setDirection(Direction.EAST);
+        ship.moveForward();
+        assertEquals(ship.getLocation().getPoint().getX(),22);
+
     }
 
 }
