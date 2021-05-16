@@ -8,6 +8,56 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-common/src/main/java/org/springblade/common/constant/LauncherConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service-api/prepaycards-merchant-api/src/main/java/com/merchant/entity/DiscountType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/main/java/com/merchant/controller/MerchantCardController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/main/java/com/merchant/exception/WebExceptionAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/main/java/com/merchant/service/MerchantCardActivitiesConfigService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/main/java/com/merchant/service/impl/MerchantCardActivitiesConfigServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/main/resources/application-dev.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/src/test/java/com/merchant/service/impl/MerchantCardActivitiesConfigServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -18,7 +68,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch04tictaccode/Location.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch03tictactoe/TicTacToeSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch04itctaccode/DirectionSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch04itctaccode/LocationSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch04itctaccode/PlanetSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch04itctaccode/PointSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch04itctaccode/ShipSpec.java">
           <value>
             <set />
           </value>
