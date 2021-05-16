@@ -22,6 +22,7 @@ public class ShipSpec {
         ship = new Ship(location);
     }
 
+
     public void whenInstantedThenLocationisSet() {
         //Location location = new Location(new Point(21, 13), Direction.NONE);
 
