@@ -116,5 +116,10 @@ public class ShipSpec {
         assertEquals(ship.getLocation(),expected);
     }
 
+    /**
+     * kiss 原则
+     *应编写尽可能简单的代码，只要让测试能够通过即可，这颗确保设计越轻越清晰，并避免多余的功能
+     */
+
 
 }
