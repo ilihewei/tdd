@@ -57,8 +57,49 @@ public class ShipSpec {
      * 当前规范的单元包含外部代码时，应考虑这样一点，（至少在这里应该如此），即外部代码应景经过测试。我们知道外部代码没有问题，
      * 因为每次修改后，我们都运行了所有的测试
      *
-     * 每次修改实现代码都再次运行所有的测试
+     * 每次修改实现代码都再次运行所有的测试（引入jenkins的意义）
      * 这确保对代码所做的修改不会带来任何意外的副作用。
      */
+
+    /**
+     * 缺陷：
+     * 如果外部代码发生变化，将需要修改很多的规范，而理想的情况下，单元被修改是
+     */
+    //前进
+    public void whenMoveForwardThenForward(){
+        Location expected = this.location.copy();
+        expected.forward();
+        ship.moveForward();
+        assertEquals(ship.getLocation(),expected);
+    }
+
+    //回退
+    public void whenMoveBackwardThenBackward(){
+        Location expected=this.location.copy();
+        expected.backward();
+        ship.moveBackWard();
+        assertEquals(ship.getLocation(),expected);
+
+    }
+
+    //左转
+
+    public void whenTurnLeftThenLeftward(){
+        Location expected=this.location.copy();
+        expected.turnLeft();
+        ship.turnLeft();
+        assertEquals(ship.getLocation(),expected);
+    }
+
+    //右转
+
+    public void whenTurnRightThenRight(){
+        Location expected=this.location.copy();
+        expected.turnRight();
+        ship.turnRight();
+        assertEquals(ship.getLocation(),expected);
+    }
+
+
 
 }

@@ -12,7 +12,19 @@ public class Ship {
     }
 
 
-    public void moveForward() {
-        location.forward();
+    public boolean moveForward() {
+        return location.forward();
+    }
+
+    public boolean moveBackWard() {
+        return  location.backward();
+    }
+
+    public void turnLeft() {
+         location.turnLeft();
+    }
+
+    public void turnRight() {
+        location.turnRight();
     }
 }
