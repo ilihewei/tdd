@@ -30,10 +30,28 @@ public class Ship {
 
     public void receiveCommand(String operations) {
         //1.0 最简版本
-        turnRight();
-        moveForward();
-        turnLeft();
-        moveBackWard();
+//        turnRight();
+//        moveForward();
+//        turnLeft();
+//        moveBackWard();
+
+        //最终版本
+        for (char command:operations.toCharArray()){
+            switch (command){
+                case 'f':
+                    moveForward();
+                    break;
+                case 'b':
+                    moveBackWard();
+                    break;
+                case 'l':
+                    turnLeft();
+                    break;
+                case  'r':
+                    turnRight();
+                    break;
+            }
+        }
 
 
     }

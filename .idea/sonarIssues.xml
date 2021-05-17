@@ -73,6 +73,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch04tictaccode/Ship.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch03tictactoe/TicTacToeSpec.java">
           <value>
             <set />
@@ -109,6 +114,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../vue/tdd-java-ch04-ship/src/test/java/com/packtpublishing/tddjava/ch04ship/ShipSpec.java">
           <value>
             <set />
           </value>
