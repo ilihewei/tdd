@@ -109,6 +109,12 @@ public class ShipSpec {
      * 同时，继续继承这样的思路，即对单元（方法）进行测试时，不要过多的考虑他将调用的方法或类
      */
 
+    public void whenReceiveCommandsFThenForward(){
+        Location expected=location.copy();
+        expected.forward();
+        ship.receiveCommand('f');
+        assertEquals(ship.getLocation(),expected);
+    }
 
 
 }
