@@ -112,7 +112,7 @@ public class ShipSpec {
     public void whenReceiveCommandsFThenForward(){
         Location expected=location.copy();
         expected.forward();
-        ship.receiveCommand('f');
+        ship.receiveCommand("f");
         assertEquals(ship.getLocation(),expected);
     }
 
@@ -121,5 +121,14 @@ public class ShipSpec {
      *应编写尽可能简单的代码，只要让测试能够通过即可，这颗确保设计越轻越清晰，并避免多余的功能
      */
 
+    public void whenReceiveCommandsFThenAllAreExecuted(){
+        Location expected=location.copy();
+        expected.turnRight();
+        expected.forward();
+        expected.turnLeft();
+        expected.backward();
+        ship.receiveCommand("rflb");
+        assertEquals(ship.getLocation(),expected);
+    }
 
 }

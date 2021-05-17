@@ -27,4 +27,14 @@ public class Ship {
     public void turnRight() {
         location.turnRight();
     }
+
+    public void receiveCommand(String operations) {
+        //1.0 最简版本
+        turnRight();
+        moveForward();
+        turnLeft();
+        moveBackWard();
+
+
+    }
 }
