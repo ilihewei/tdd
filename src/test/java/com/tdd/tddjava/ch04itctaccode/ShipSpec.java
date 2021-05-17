@@ -1,9 +1,6 @@
 package com.tdd.tddjava.ch04itctaccode;
 
-import com.tdd.tddjava.ch04tictaccode.Direction;
-import com.tdd.tddjava.ch04tictaccode.Location;
-import com.tdd.tddjava.ch04tictaccode.Point;
-import com.tdd.tddjava.ch04tictaccode.Ship;
+import com.tdd.tddjava.ch04tictaccode.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -109,6 +106,7 @@ public class ShipSpec {
      * 同时，继续继承这样的思路，即对单元（方法）进行测试时，不要过多的考虑他将调用的方法或类
      */
 
+    //操作命令行
     public void whenReceiveCommandsFThenForward(){
         Location expected=location.copy();
         expected.forward();
@@ -131,4 +129,16 @@ public class ShipSpec {
         assertEquals(ship.getLocation(),expected);
     }
 
+    /**
+     * 需求5
+     *用地图表示地球时，到达地球的边缘后，将进入另一边
+     * 实现从网格的一边转到另一边
+     */
+
+    public void whenInstantThenPlanetIsStored(){
+        Point max=new Point(50,50);
+        Planet planet = new Planet(max);
+        ship=new Ship(location,planet);
+        assertEquals(ship.getPlanet(),planet);
+    }
 }

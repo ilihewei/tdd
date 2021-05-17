@@ -3,12 +3,22 @@ package com.tdd.tddjava.ch04tictaccode;
 public class Ship {
 
    private final  Location location;
+   private  Planet planet;
+
+    public Planet getPlanet() {
+        return planet;
+    }
+
     public Location getLocation() {
         return location;
     }
 
     public  Ship (Location location){
         this.location=location;
+    }
+    public  Ship(Location location,Planet planet){
+        this.location=location;
+        this.planet=planet;
     }
 
 
