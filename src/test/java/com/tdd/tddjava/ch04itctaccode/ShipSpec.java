@@ -144,4 +144,11 @@ public class ShipSpec {
        // ship=new Ship(location,planet);
         assertEquals(ship.getPlanet(),planet);
     }
+    //检查军舰跨越网格右边缘的行为
+    public void overpassEastBoundary(){
+        location.setDirection(Direction.EAST);
+        location.getPoint().setX(planet.getMax().getX());
+        ship.receiveCommand("f");
+        assertEquals(location.getX(),1);
+    }
 }
