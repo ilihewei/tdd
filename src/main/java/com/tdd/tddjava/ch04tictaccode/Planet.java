@@ -9,6 +9,7 @@ public class Planet {
         return max;
     }
 
+    //障碍列表
     private List<Point> obstacles;
     public List<Point> getObstacles() {
         return obstacles;

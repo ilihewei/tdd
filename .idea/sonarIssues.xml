@@ -18,6 +18,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-cards/src/main/java/com/dcits/prepaycards/cards/controller/CardsServiceReportDetailController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant-warning/src/main/java/com/merchant/warning/controller/WarningController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant-warning/src/main/java/com/merchant/warning/service/RecordMerchantCardWarningService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant-warning/src/main/java/com/merchant/warning/service/impl/RecordMerchantCardWarningServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant/pom.xml">
           <value>
             <set />
@@ -73,7 +93,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch04tictaccode/Planet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch04tictaccode/Ship.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/Connect4TDD.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/Direction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/Location.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/Planet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/Point.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/Ship.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/tdd/tddjava/ch05tictaccode/design.md">
           <value>
             <set />
           </value>
@@ -108,6 +168,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/Connect4TDD.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/Connect4TDDSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/DirectionSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/LocationSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/PlanetSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/PointSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/tdd/tddjava/ch05itctaccode/ShipSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/target/classes/com/tdd/tddjava/ch03tictactoe/TicTacToe.class">
           <value>
             <set />
@@ -119,6 +214,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../vue/tdd-java-ch04-ship/src/test/java/com/packtpublishing/tddjava/ch04ship/ShipSpec.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Library/Caches/JetBrains/IdeaIC2020.3/temp-testng-customsuite.xml">
           <value>
             <set />
           </value>
