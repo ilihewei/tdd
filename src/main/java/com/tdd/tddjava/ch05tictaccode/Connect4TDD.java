@@ -13,6 +13,13 @@ public class Connect4TDD {
 
     private  static  final String EMPTY=" ";
 
+    private static  final String RED="R";
+
+    private  static  final  String GREEN="G";
+
+    private  String currentPlayer=RED;
+
+
     private String[][] board=new String[ROWS][COLUMNS];
 
     public  Connect4TDD(){
@@ -30,10 +37,12 @@ public class Connect4TDD {
     }
 
     public  int putDiscInColumn(int column){
+
         checkColumn(column);
         int row=getNumberOfDiscsInColumn(column);
         checkPositionToInsert(row,column);
         board[row][column]="X";
+        switchPlayer();
         return row;
 
     }
@@ -52,7 +61,20 @@ public class Connect4TDD {
     }
 
 
-    public long getCurrentPlayer() {
-        return 0;
+    public String getCurrentPlayer() {
+        return currentPlayer;
     }
+
+    private void switchPlayer(){
+        if(RED.equals(currentPlayer)){
+            currentPlayer=GREEN;
+        }else {
+            currentPlayer=RED;
+        }
+    }
+
+//    public  int putDiscInColumn(int column){
+//        switchPlayer();
+//        return row;
+//    }
 }
