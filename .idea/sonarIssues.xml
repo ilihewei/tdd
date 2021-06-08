@@ -18,7 +18,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service-api/prepaycards-system-api/src/main/java/org/springblade/system/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-cards/src/main/java/com/dcits/prepaycards/cards/controller/CardsServiceReportDetailController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-console/src/main/java/org/springblade/system/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-console/src/main/java/org/springblade/system/mapper/IndustriesAndRegionsMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-console/src/main/java/org/springblade/system/service/IUserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-console/src/main/java/org/springblade/system/service/impl/UserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-console/src/test/java/com/console/SubmitTest.java">
           <value>
             <set />
           </value>
@@ -34,6 +64,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant-warning/src/main/java/com/merchant/warning/service/impl/RecordMerchantCardWarningServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../prepaycards/prepaycards-service/prepaycards-merchant-warning/src/test/java/com/warning.java">
           <value>
             <set />
           </value>
